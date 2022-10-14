@@ -1,0 +1,38 @@
+
+.hero {
+    grid-template-columns: minmax(300px, 1fr) 1fr;
+}
+
+.hero--info {
+    display: initial;
+    align-self: center;
+}
+
+.hero__title {
+    font-size: 70px;
+    line-height: 70px;
+    text-align: left;
+}
+
+.hero__paragraph {
+    text-align: left;
+}
+
+.hero__img {
+    height: 100%;
+    max-height: 400px;
+    width: 100%;
+    display: inline;
+    object-fit: contain;
+}
+
+.dishes--container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: none;
+}
+
+.menu--container {
+    grid-template-columns: repeat(5, 1fr);
+    max-width: none;
+}
